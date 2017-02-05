@@ -49,7 +49,7 @@
     PHAsset *asset = fetchResult.firstObject;
 
     
-    NSString *latitude = [NSString stringWithFormat:@"Lati = %f  Longi = %f", asset.location.coordinate.latitude, asset.location.coordinate.longitude];
+    NSString *latitude = [NSString stringWithFormat:@"Latitude = %f  Longitude = %f", asset.location.coordinate.latitude, asset.location.coordinate.longitude];
     NSString *dateStr = [NSString stringWithFormat:@" Date =  %@",asset.creationDate];
     
     NSString *resultStr = [NSString stringWithFormat:@"%@ \n %@",latitude,dateStr];
