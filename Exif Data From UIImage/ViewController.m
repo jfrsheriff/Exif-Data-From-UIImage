@@ -19,11 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIButton *openButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    UIButton *openButton = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 200, 100)];
     [openButton addTarget:self action:@selector(openGallery) forControlEvents:UIControlEventTouchUpInside];
     [openButton setTitle:@"Open Gallery" forState:UIControlStateNormal];
     [openButton setBackgroundColor:[UIColor yellowColor]];
-    [openButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [openButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:openButton];
     
     [openButton setCenter:self.view.center];
