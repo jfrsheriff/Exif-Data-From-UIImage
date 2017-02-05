@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					123CF3F11DE4301A00F381E3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RDBAA992Q3;
 					};
 					123CF40A1DE4301A00F381E3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -415,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RDBAA992Q3;
 				INFOPLIST_FILE = "Exif Data From UIImage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Exif-Data-From-UIImage";
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RDBAA992Q3;
 				INFOPLIST_FILE = "Exif Data From UIImage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Exif-Data-From-UIImage";
@@ -498,6 +501,7 @@
 				123CF4211DE4301A00F381E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123CF4221DE4301A00F381E3 /* Build configuration list for PBXNativeTarget "Exif Data From UIImageTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				123CF4241DE4301A00F381E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123CF4251DE4301A00F381E3 /* Build configuration list for PBXNativeTarget "Exif Data From UIImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				123CF4271DE4301A00F381E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
